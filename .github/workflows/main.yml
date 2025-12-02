@@ -19,6 +19,9 @@ jobs:
       - name: Check project files
         run: ls
 
+      - name: Check files
+        run: ls -R
+        
       - name: Install dependencies
         run: flutter pub get
         working-directory: .
