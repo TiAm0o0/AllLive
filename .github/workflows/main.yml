@@ -21,6 +21,9 @@ jobs:
 
       - name: Check files
         run: ls -R
+
+      - name: List all files recursively
+        run: ls -R
         
       - name: Install dependencies
         run: flutter pub get
